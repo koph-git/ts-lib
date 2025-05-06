@@ -1,0 +1,15 @@
+{
+  "name": "ts-lib",
+  "private": true,
+  "workspaces": [
+    "debounce",
+    "jwt"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=debounce && npm run build --workspace=jwt"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.6.2"
+  }
+}
