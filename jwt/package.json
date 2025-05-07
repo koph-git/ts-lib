@@ -1,9 +1,16 @@
 {
-  "name": "@koph/debounce",
-  "version": "1.0.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "name": "@koph-npm/jwt",
+  "version": "1.0.3",
+  "main": "dist/jwt.js",
+  "types": "dist/jwt.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/jwt.js",
+      "require": "./dist/jwt.js"
+    }
+  },
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc && node build.js"
   }
 }
