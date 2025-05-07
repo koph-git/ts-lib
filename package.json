@@ -5,11 +5,9 @@
     "debounce",
     "jwt"
   ],
-  "scripts": {
-    "build": "npm run build --workspace=debounce && npm run build --workspace=jwt"
-  },
   "devDependencies": {
     "@types/node": "^22.10.2",
+    "esbuild": "^0.25.4",
     "typescript": "^5.6.2"
   }
 }
