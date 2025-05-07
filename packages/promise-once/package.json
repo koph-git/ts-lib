@@ -1,13 +1,13 @@
 {
-  "name": "@koph-npm/browser-token",
+  "name": "@koph-npm/promise-once",
   "version": "0.0.1",
-  "main": "dist/token.js",
-  "types": "dist/token.d.ts",
+  "main": "dist/promiseOnce.js",
+  "types": "dist/promiseOnce.d.ts",
   "files": ["dist"],
   "exports": {
     ".": {
-      "import": "./dist/token.js",
-      "require": "./dist/token.js"
+      "import": "./dist/promiseOnce.js",
+      "require": "./dist/promiseOnce.js"
     }
   },
   "scripts": {
