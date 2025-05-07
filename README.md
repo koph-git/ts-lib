@@ -8,18 +8,18 @@
 
 ### Navegador
 
-- [`@koph-npm/browser-backbutton`](./packages/browser-backbutton/README.md) — Controle reativo do botão de voltar
-- [`@koph-npm/browser-cache`](./packages/browser-cache/README.md) — Cache com expiração no navegador
-- [`@koph-npm/browser-device`](./packages/browser-device/README.md) — Identificador persistente de dispositivo
-- [`@koph-npm/browser-jwt`](./packages/browser-jwt/README.md) — Utilitários de manipulação de JWT
-- [`@koph-npm/browser-loader`](./packages/browser-loader/README.md) — Carregador dinâmico de JS e CSS
-- [`@koph-npm/browser-locker`](./packages/browser-locker/README.md) — Mutex entre abas usando localStorage
-- [`@koph-npm/browser-storage`](./packages/browser-storage/README.md) — Storage reativo com sessão/local + criptografia
-- [`@koph-npm/browser-token`](./packages/browser-token/README.md) — Gerenciador completo de token JWT com refresh
+- [`@koph-npm/browser-backbutton`](./packages/browser/backbutton/README.md) — Controle reativo do botão de voltar
+- [`@koph-npm/browser-cache`](./packages/browser/cache/README.md) — Cache com expiração no navegador
+- [`@koph-npm/browser-device`](./packages/browser/device/README.md) — Identificador persistente de dispositivo
+- [`@koph-npm/browser-jwt`](./packages/browser/jwt/README.md) — Utilitários de manipulação de JWT
+- [`@koph-npm/browser-loader`](./packages/browser/loader/README.md) — Carregador dinâmico de JS e CSS
+- [`@koph-npm/browser-locker`](./packages/browser/locker/README.md) — Mutex entre abas usando localStorage
+- [`@koph-npm/browser-storage`](./packages/browser/storage/README.md) — Storage reativo com sessão/local + criptografia
+- [`@koph-npm/browser-token`](./packages/browser/token/README.md) — Gerenciador completo de token JWT com refresh
 
 ### React
 
-- [`@koph-npm/react-reactive`](./packages/react-reactive/README.md) — Store leve com `Proxy` + `useStore`
+- [`@koph-npm/react-reactive`](./packages/react/reactive/README.md) — Store leve com `Proxy` + `useStore`
 
 ### Utilitários
 
