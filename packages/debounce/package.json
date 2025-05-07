@@ -1,0 +1,16 @@
+{
+  "name": "@koph-npm/debounce",
+  "version": "0.0.1",
+  "main": "dist/debounce.js",
+  "types": "dist/debounce.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/debounce.js",
+      "require": "./dist/debounce.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc && node build.js"
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "name": "@koph-npm/jwt",
-  "version": "1.0.3",
+  "name": "@koph-npm/browser-jwt",
+  "version": "0.0.1",
   "main": "dist/jwt.js",
   "types": "dist/jwt.d.ts",
   "files": ["dist"],

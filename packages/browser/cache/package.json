@@ -1,0 +1,16 @@
+{
+  "name": "@koph-npm/browser-cache",
+  "version": "0.0.1",
+  "main": "dist/cache.js",
+  "types": "dist/cache.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/cache.js",
+      "require": "./dist/cache.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc && node build.js"
+  }
+}

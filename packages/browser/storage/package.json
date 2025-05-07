@@ -1,0 +1,16 @@
+{
+  "name": "@koph-npm/browser-storage",
+  "version": "0.0.1",
+  "main": "dist/storage.js",
+  "types": "dist/storage.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/storage.js",
+      "require": "./dist/storage.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc && node build.js"
+  }
+}

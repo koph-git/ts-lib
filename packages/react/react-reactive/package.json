@@ -1,0 +1,16 @@
+{
+  "name": "@koph-npm/react-reactive",
+  "version": "0.0.2",
+  "main": "dist/reactive.js",
+  "types": "dist/reactive.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/reactive.js",
+      "require": "./dist/reactive.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc && node build.js"
+  }
+}

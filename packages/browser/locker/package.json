@@ -1,0 +1,16 @@
+{
+  "name": "@koph-npm/browser-locker",
+  "version": "0.0.1",
+  "main": "dist/locker.js",
+  "types": "dist/locker.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/locker.js",
+      "require": "./dist/locker.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc && node build.js"
+  }
+}

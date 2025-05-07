@@ -1,0 +1,16 @@
+{
+  "name": "@koph-npm/browser-backbutton",
+  "version": "0.0.1",
+  "main": "dist/backbutton.js",
+  "types": "dist/backbutton.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/backbutton.js",
+      "require": "./dist/backbutton.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc && node build.js"
+  }
+}

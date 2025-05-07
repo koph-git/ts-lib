@@ -44,8 +44,8 @@
   }
  */
 
-import { Locker } from "./locker";
-import { jwt, TDecoded} from "./jwt";
+import { Locker } from "@koph-npm/browser-locker";
+import { jwt, TDecoded} from "@koph-npm/browser-jwt";
 
 export type TConfig = {
   refresh?: null | ((_refreshToken: string) => Promise<TSetToken>)

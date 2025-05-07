@@ -1,5 +1,5 @@
 {
-  "name": "@koph-npm/loader",
+  "name": "@koph-npm/browser-loader",
   "version": "0.0.1",
   "main": "dist/loader.js",
   "types": "dist/loader.d.ts",
