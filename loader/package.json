@@ -1,0 +1,16 @@
+{
+  "name": "@koph-npm/loader",
+  "version": "0.0.1",
+  "main": "dist/loader.js",
+  "types": "dist/loader.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/loader.js",
+      "require": "./dist/loader.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc && node build.js"
+  }
+}

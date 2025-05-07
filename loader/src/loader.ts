@@ -53,7 +53,6 @@ const modules: { [key: string]: TModule } = {};
 function resolvePath(path: string) {
   return new URL(path, location.href).href;
 }
-
 function loader(path: string, type: "js" | "css", asyncLoad = true, timeoutMs = 10000): Promise<boolean> {
   path = resolvePath(path);
 
